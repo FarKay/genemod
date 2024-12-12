@@ -6,7 +6,7 @@ function Value() {
           <div className="absolute">
             <img src="/tab/quotes.png" alt="quotes" />
           </div>
-          <div className="relative sm:max-w-[321px]">
+          <div className="relative sm:max-w-[321px] md:max-w-[674px] lg:max-w-[540px]">
             <p className="font-normal font-lato text-[18px] leading-[27px] text-[#020d3b] md:text-[22px] md:leading-[33px] lg:text-[23px] lg:leading-[34.5px]">
               “User-friendly interface, powerful features, and commitment to
               security and compliance make it a standout choice in the

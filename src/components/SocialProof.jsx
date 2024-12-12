@@ -1,7 +1,7 @@
 function SocialProof() {
   return (
     <div className="bg-[#fbfbfa] py-10 md:py-[60px] md:px-10 lg:px-20">
-      <div className="flex gap-6 items-center md:gap-6 md:py-2 justify-center lg:py-4">
+      <div className="flex gap-6 items-center md:gap-6 md:py-2 justify-center lg:py-4 lg:gap-10">
         <img src="/social proof/image 17.png" />
         <img src="/social proof/image 3.png" />
         <img src="/social proof/image 6.png" />
