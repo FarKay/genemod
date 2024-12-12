@@ -2,7 +2,7 @@ import { useState } from "react";
 import tabs from "../biotabs";
 import tabData from "../tabData";
 import ProductTab from "./ProductTab";
-import TargetAudiences from "./targetAudiences";
+import TargetAudiences from "./TargetAudiences";
 
 function Biopharmaceutical() {
   const [activeTabId, setActiveTabId] = useState(1);

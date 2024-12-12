@@ -3,7 +3,7 @@ function TargetAudiences({ data }) {
   return (
     <div className="md:grid md:grid-cols-2 sm:flex">
       <div className="md:py-[60px] lg:py-[60px] lg:pl-20 lg:pr-20 sm:hidden md:flex">
-        {/* <img src="/tab/image.png" alt="image" className="lg:hidden" /> */}
+        <img src="/tab/image.png" alt="image" className="lg:hidden" />
         <img src={data.image} alt="image" className="sm:hidden lg:block" />
       </div>
       <div className="flex flex-col sm:justify-between px-6 py-8 md:py-[60px] lg:max-w-[710px]">
