@@ -17,7 +17,7 @@ function ProductInfo() {
           />
         </div>
         <div className="pt-8 px-6 flex flex-col gap-4 md:pt-10 md:px-10 md:gap-8 lg:order-1 lg:pl-20 lg:pt-10 lg:pr-10 lg:pb-[60px]">
-          <div className="lg:flex lg:flex-col lg:gap-8 md:grid md:grid-cols-3 md:gap-8 sm:grid sm:gap-4">
+          <div className="lg:flex lg:flex-col lg:gap-8 md:grid md:grid-cols-3 md:gap-8 flex flex-col gap-4">
             <div className="flex gap-4">
               <img
                 src="/design/icon badge.png"

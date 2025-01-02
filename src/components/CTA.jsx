@@ -1,15 +1,13 @@
+import Button from "./Button";
+
 function CTA() {
   return (
-    <div className="lg:flex lg:gap-4 sm:hidden md:hidden">
-      <div className="p-2 border border-[#051d85] rounded-[4px]">
-        <button className="px-3 text-[19px] leading-[28.5px] font-semibold font-lato text-brand-500">
-          Log in
-        </button>
+    <div className="lg:flex lg:flex-row lg:gap-4 lg:ml-auto hidden">
+      <div>
+        <Button type="secondary">Log in</Button>
       </div>
-      <div className="p-2 rounded-[4px] bg-brand-500">
-        <button className="px-3 text-[19px] leading-[28.5px] font-semibold font-lato text-[#fff]">
-          Request demo
-        </button>
+      <div>
+        <Button type="primary">Request demo</Button>
       </div>
     </div>
   );

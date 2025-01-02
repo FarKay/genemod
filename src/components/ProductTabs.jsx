@@ -6,7 +6,7 @@ function ProductTabs() {
   const [isActive, setIsActive] = useState(1);
 
   return (
-    <ul className="flex gap-5 px-5 md:justify-center lg:gap-10">
+    <ul className="flex gap-5 px-5 md:justify-center lg:gap-10 overflow-x-hidden">
       {Tabs.map((tab) => (
         <ProductTab
           {...tab}

@@ -12,8 +12,8 @@ function Biopharmaceutical() {
   };
 
   return (
-    <div className="bg-[#f5f7ff] py-10">
-      <ul className="flex flex-row pl-6 overflow-x-clip gap-5 md:px-10 md:pt-5 md:justify-center md:flex-wrap sm:flex-nowrap lg:gap-20 sm:whitespace-nowrap">
+    <div className="bg-[#f5f7ff] py-10 min-h-[623px]">
+      <ul className="flex flex-row pl-6 overflow-x-clip gap-5 md:px-10 md:pt-5 md:justify-center md:flex-wrap flex-nowrap lg:gap-8 whitespace-nowrap">
         {tabs.map((tab) => (
           <ProductTab
             {...tab}
@@ -26,7 +26,7 @@ function Biopharmaceutical() {
         ))}
       </ul>
 
-      <div>
+      <div className="">
         {tabData
           .filter((data) => data.id === activeTabId)
           .map((data) => (

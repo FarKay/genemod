@@ -1,7 +1,7 @@
 function Logo() {
   return (
-    <div>
-      <img src="/logo.png" alt="genemod logo" />
+    <div className="lg:w-[142px] lg:h-10 flex items-center justify-center">
+      <img src="/logo.png" alt="genemod logo" className="object-contain" />
     </div>
   );
 }

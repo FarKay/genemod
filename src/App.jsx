@@ -1,40 +1,13 @@
-import Biopharmaceutical from "./components/Biopharmaceutical";
-import Blog from "./components/Blog";
-import Footer from "./components/Footer";
-import NavBar from "./components/NavBar";
-import HeroArea from "./components/HeroArea";
-import ProductInfo from "./components/ProductInfo";
-import Products from "./components/Products";
-import Roi from "./components/Roi";
-import SocialProof from "./components/SocialProof";
-import Value from "./components/Value";
-import ValueProp from "./components/ValueProp";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AppLayout from "./components/AppLayout";
 
 function App() {
   return (
-    <div className="bg-[#fbfbfa] mx-0 my-0">
-      <NavBar />
-
-      <HeroArea />
-
-      <SocialProof />
-
-      <Roi />
-
-      <ProductInfo />
-
-      <ValueProp />
-
-      <Products />
-
-      <Biopharmaceutical />
-
-      <Value />
-
-      <Blog />
-
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

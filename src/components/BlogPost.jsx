@@ -28,7 +28,7 @@ function BlogPost() {
         </div>
       </div>
 
-      <div className="md:border md:rounded-2xl md:bg-[#f5f7ff] md:p-2 md:flex md:flex-col md:gap-4 md:border-[#eff1f5] shadow-custom-2 lg:w-[392px] sm:hidden">
+      <div className="md:border md:rounded-2xl md:bg-[#f5f7ff] md:p-2 md:flex md:flex-col md:gap-4 md:border-[#eff1f5] shadow-custom-2 lg:w-[392px] hidden">
         <div>
           <img src="/desktop/blog-image.png" alt="science-lab" />
         </div>
@@ -51,7 +51,7 @@ function BlogPost() {
         </div>
       </div>
 
-      <div className="md:border md:rounded-2xl md:bg-[#f5f7ff] md:p-2 md:flex md:flex-col md:gap-4 md:border-[#eff1f5] shadow-custom-2 lg:w-[392px] sm:hidden">
+      <div className="md:border md:rounded-2xl md:bg-[#f5f7ff] md:p-2 md:flex md:flex-col md:gap-4 md:border-[#eff1f5] shadow-custom-2 lg:w-[392px] hidden">
         <div>
           <img src="/desktop/blog-image.png" alt="science-lab" />
         </div>

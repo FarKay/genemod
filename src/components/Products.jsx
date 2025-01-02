@@ -10,7 +10,7 @@ function Products() {
             <img
               src="/desktop/freezer gif.png"
               alt="image"
-              className="md:rounded-2xl md:w-full lg:w-[690px] lg:h-[389px] lg:rounded-2xl sm:hidden md:block"
+              className="md:rounded-2xl w-full h-auto lg:rounded-2xl hidden md:block"
             />
             <img
               src="/design/freezer gif.png"
@@ -22,22 +22,22 @@ function Products() {
             <h4 className="font-medium font-cabin text-[24px] leading-[26.88px] text-brand-500 md:text-[31px] md:leading-[34.72px] lg:text-[33px] lg:leading-[36.96px]">
               Visualize sample storage
             </h4>
-            <span className="font-normal font-lato text-[18px] leading-[27px] text-[#7d89b0] md:text-[22px] md:leading-[33px] lg:text-[23px] lg:leading-[34.5px] md:max-w-[690px]">
+            <span className="font-normal font-lato text-[18px] leading-[27px] text-[#7d89b0] md:text-[22px] md:leading-[33px] lg:text-[23px] lg:leading-[34.5px] md:max-w-[690px] lg:max-w-full">
               Digitalize freezers and track samples, minimizing manual logging
               time. Genemod’s Laboratory Information Management System (LIMS)
               ensures an optimized research workflow.
             </span>
           </div>
         </div>
-        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-1 sm:hidden">
+        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-1 hidden">
           <div>
             <img
               src="/desktop/consumables.png"
               alt="image"
-              className="rounded-2xl md:w-[303px] md:h-[325px]"
+              className="rounded-2xl w-full h-auto"
             />
           </div>
-          <div className="flex flex-col gap-3 md:max-w-[303px]">
+          <div className="flex flex-col gap-3 md:max-w-[303px] lg:max-w-full">
             <h3 className="text-[31px] leading-[34.72px] font-cabin font-medium text-brand-500 lg:text-[33px] lg:leading-[36.96px]">
               Manage consumables
             </h3>
@@ -47,15 +47,15 @@ function Products() {
             </p>
           </div>
         </div>
-        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-3 sm:hidden">
+        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-3 hidden">
           <div>
             <img
               src="/desktop/reports & protocol.png"
               alt="image"
-              className="rounded-2xl lg:w-[303px] lg:h-[300px] md:h-[275px]"
+              className="rounded-2xl w-full h-auto"
             />
           </div>
-          <div className="flex flex-col gap-3 md:max-w-[303px]">
+          <div className="flex flex-col gap-3 md:max-w-[303px] lg:max-w-full">
             <h3 className="text-[31px] leading-[34.72px] font-cabin font-medium text-brand-500 lg:text-[33px] lg:leading-[36.96px]">
               Generate reports and protocols
             </h3>
@@ -66,15 +66,15 @@ function Products() {
             </p>
           </div>
         </div>
-        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-4 sm:hidden">
+        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-4 hidden">
           <div>
             <img
               src="/desktop/equipment illustrations.png"
               alt="image"
-              className="rounded-2xl lg:w-[303px] lg:h-[300px] md:h-[291px]"
+              className="rounded-2xl w-full h-auto"
             />
           </div>
-          <div className="flex flex-col gap-3 md:max-w-[303px]">
+          <div className="flex flex-col gap-3 md:max-w-[303px] lg:max-w-full">
             <h3 className="text-[31px] leading-[34.72px] font-cabin font-medium text-brand-500 lg:text-[33px] lg:leading-[36.96px]">
               Simplify equipment scheduling
             </h3>
@@ -84,15 +84,15 @@ function Products() {
             </p>
           </div>
         </div>
-        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-5 sm:hidden">
+        <div className="md:flex md:flex-col md:gap-[32px] md:p-8 bg-[#f5f7ff] rounded-2xl shadow-custom-2 lg:order-5 hidden">
           <div>
             <img
               src="/desktop/notebook.png"
               alt="image"
-              className="rounded-2xl lg:w-[303px] lg:h-[300px] md:h-[324px]"
+              className="rounded-2xl w-full h-auto"
             />
           </div>
-          <div className="flex flex-col gap-3 md:max-w-[303px]">
+          <div className="flex flex-col gap-3 md:max-w-[303px] lg:max-w-full">
             <h3 className="text-[31px] leading-[34.72px] font-cabin font-medium text-brand-500 lg:text-[33px] lg:leading-[36.96px]">
               Perform real-time collaboration
             </h3>
@@ -103,7 +103,7 @@ function Products() {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 items-center justify-center md:hidden">
+      <div className="flex gap-4 items-center justify-center py-3 md:hidden">
         <img src="/design/dot 1.png" alt="dot" />
         <img src="/design/dot 2.png" alt="dot" />
         <img src="/design/dot 3.png" alt="dot" />

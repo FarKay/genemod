@@ -5,12 +5,12 @@ function ValueProp() {
         <img
           src="/design/dashboard-widget-tab.png"
           alt="dashboard widget"
-          className="lg:hidden"
+          className="block md:block lg:hidden"
         />
         <img
           src="/desktop/dashboard-widget.png"
           alt="dashboard widget"
-          className="sm:hidden md:block"
+          className="hidden md:hidden lg:block"
         />
       </div>
       <div className="py-10 px-6 flex flex-col gap-4 md:py-[60px] md:pl-[60px] md:pr-10 lg:pr-20 lg:pl-10">
